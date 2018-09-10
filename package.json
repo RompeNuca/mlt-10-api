@@ -1,0 +1,23 @@
+{
+  "name": "mlt-10-api",
+  "version": "0.0.1",
+  "description": "api REST con MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --require dotenv/config index.js"
+  },
+  "author": "Mauro Taliente <mauro.taliente3@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0",
+    "nodemon": "^1.18.4"
+  }
+}
